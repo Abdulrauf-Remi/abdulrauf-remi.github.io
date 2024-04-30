@@ -53,70 +53,44 @@
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "EducationOrganization",
-  "name": "Timeline Trust",
-  "url": "https://www.timelinetrust.com",
-  "logo": "https://www.timelinetrust.com/logo.png",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+233-266-733-700",
-    "contactType": "customer service",
-    "areaServed": "GH"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "GA-250-6604, Otsaame Baako Lane, Off Pumpkin Avenue, Near Jerusalem Restaurant, Achimota Neoplan",
-    "addressLocality": "Accra",
-    "addressRegion": "Greater Accra",
-    "addressCountry": "GH"
-  },
-  "offers": [
-    {
-      "@type": "Offer",
-      "name": "SAT Classes Tuition",
-      "price": "700",
-      "priceCurrency": "GHS",
-      "description": "Includes classes, study materials, practice tests, counseling, and advising.",
-      "url": "https://www.timelinetrust.com/sat-classes",
-      "validFrom": "2023-01-01"
-    },
-    {
-      "@type": "Offer",
-      "name": "University Applications Assistance",
-      "price": "500",
-      "priceCurrency": "GHS",
-      "description": "Covers assistance in selecting universities, filling application forms, and drafting essays.",
-      "url": "https://www.timelinetrust.com/university-apps-assistance",
-      "validFrom": "2023-01-01"
+  "@type": "EducationEvent",
+  "name": "Digital SAT Prep Classes",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "startDate": "2023-01-01",  // Assuming a continuous start date, adjust as needed
+  "endDate": "2024-12-31",  // Assuming a continuous end date, adjust as needed
+  "location": {
+    "@type": "Place",
+    "name": "Timeline Trust - Accra Office",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "GA-250-6604, Otsaame Baako Lane, Off Pumpkin Avenue, Near Jerusalem Restaurant, Achimota Neoplan",
+      "addressLocality": "Accra",
+      "addressRegion": "Greater Accra",
+      "addressCountry": "GH"
     }
-  ],
-  "event": [
-    {
-      "@type": "EducationEvent",
-      "name": "Digital SAT Prep Classes",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Timeline Trust - Accra Office",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "GA-250-6604, Otsaame Baako Lane, Off Pumpkin Avenue, Near Jerusalem Restaurant, Achimota Neoplan",
-          "addressLocality": "Accra",
-          "addressRegion": "Greater Accra",
-          "addressCountry": "GH"
-        }
-      },
-      "offers": {
-        "@type": "Offer",
-        "url": "https://www.timelinetrust.com/sat-classes",
-        "price": "700",
-        "priceCurrency": "GHS",
-        "availability": "https://schema.org/InStock"
-      },
-      "description": "SAT classes covering all aspects of the SAT exam preparation."
-    }
-  ]
+  },
+  "image": "https://www.timelinetrust.com/images/sat-classroom.jpg",  // Example URL, replace with actual image URL
+  "organizer": {
+    "@type": "Organization",
+    "name": "Timeline Trust",
+    "url": "https://www.timelinetrust.com"
+  },
+  "performer": {
+    "@type": "Person",
+    "name": "Richard C. Aryee"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.timelinetrust.com/sat-classes",
+    "price": "700",
+    "priceCurrency": "GHS",
+    "validFrom": "2023-01-01T00:00:00+00:00",  // Assuming the offer is valid from the start of the year
+    "availability": "https://schema.org/InStock"
+  },
+  "description": "SAT classes covering all aspects of the SAT exam preparation."
 }
+
 </script>
 
     
